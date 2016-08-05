@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/mainMenuActionBarItem"
+      android:showAsAction="always"
+      android:icon="@drawable/ic_menu_moreoverflow_normal_holo_light">
+    <menu>
+      <item android:id="@+id/setAccountMenuItem"
+          android:showAsAction="always"
+          android:icon="@drawable/icon"
+          android:title="@string/set_account"/>
+    </menu>
+  </item>
+</menu>

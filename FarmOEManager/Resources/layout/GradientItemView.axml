@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:weightSum="1.0"
+    android:background="@drawable/ListItem">
+  <TextView
+      android:text="text"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight=".25"
+      android:id="@+id/gradientItemText" />
+  <TextView
+      android:text="text"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_weight=".75"
+      android:gravity="right"
+      android:id="@+id/gradientItemQty" />
+</LinearLayout>

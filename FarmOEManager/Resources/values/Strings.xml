@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">Farm Order Manager</string>
+  <string name="farm_prompt">Choose your farm</string>
+  <string name="set_account">Account Settings</string>
+  <string name="about">About</string>
+  <string name="invalid_account">Your name, password and/or farm is not correct. Please verify that your account settings exactly match what is displayed on the ordering web site.</string>
+  <string name="network_error">This application requires Internet connectivity but none was detected. Verify that your mobile or WiFi network is enabled and that you have good signal strength.</string>
+  <string name="comm_error">A communications error occurred and the remote operation could not be completed. Verify that your mobile or WiFi network is enabled and that you have good signal strength.\n\nError:\n\n%s</string>
+  <string name="currentOrderDates">Current Order Dates for group {0}</string>
+  <string name="memberElementText">Members: {0}</string>
+  <string name="orderElementText">Orders: {0}</string>
+  <string name="orderSummaryTitle">Summary for {0}</string>
+</resources>

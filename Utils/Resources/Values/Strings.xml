@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">Farm Order Manager</string>
+  <string name="progress_message">
+    <i>Communicating, Please wait...</i>
+  </string>
+  <string name="OkButton">OK</string>
+</resources>

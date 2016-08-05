@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            style="@style/TitleStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/accountTitle"
+            android:text="View or Update your Account Settings"
+            android:layout_marginBottom="20dip" />
+        <TextView
+            android:text="First Name:"
+            android:id="@+id/firstNameTitle"
+            android:layout_width="125dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/accountTitle"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="10dip" />
+        <EditText
+            android:id="@+id/accountFirstName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/firstNameTitle"
+            android:layout_below="@id/accountTitle"
+            android:background="@android:drawable/editbox_background"
+            android:layout_marginBottom="20dip"
+            android:inputType="textCapWords">
+            <requestFocus />
+        </EditText>
+        <TextView
+            android:text="Last Name:"
+            android:id="@+id/lastNameTitle"
+            android:layout_width="125dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/accountFirstName"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="10dip" />
+        <EditText
+            android:id="@+id/accountLastName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/lastNameTitle"
+            android:layout_below="@id/accountFirstName"
+            android:background="@android:drawable/editbox_background"
+            android:layout_marginBottom="20dip"
+            android:inputType="textCapWords" />
+        <TextView
+            android:text="Password:"
+            android:id="@+id/passwordTitle"
+            android:layout_width="125dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/accountLastName"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="10dip" />
+        <EditText
+            android:id="@+id/accountPassword"
+            android:inputType="textPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/passwordTitle"
+            android:layout_below="@id/accountLastName"
+            android:background="@android:drawable/editbox_background"
+            android:layout_marginBottom="20dip"
+            android:password="true" />
+        <TextView
+            android:text="Admin Password:"
+            android:id="@+id/adminPasswordTitle"
+            android:layout_width="125dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/accountPassword"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="10dip" />
+        <EditText
+            android:id="@+id/accountAdminPassword"
+            android:inputType="textPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/adminPasswordTitle"
+            android:layout_below="@id/accountPassword"
+            android:background="@android:drawable/editbox_background"
+            android:layout_marginBottom="20dip"
+            android:password="true" />
+        <TextView
+            android:text="Farm:"
+            android:id="@+id/farmTitle"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/accountAdminPassword"
+            android:layout_marginLeft="5dip"
+            android:layout_marginTop="15dip" />
+        <Spinner
+            style="@style/SpinnerStyle"
+            android:id="@+id/accountFarm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/farm_prompt"
+            android:layout_toRightOf="@id/farmTitle"
+            android:layout_below="@id/accountAdminPassword"
+            android:layout_marginBottom="20dip" />
+    </RelativeLayout>
+</ScrollView>
